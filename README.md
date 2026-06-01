@@ -28,4 +28,4 @@ Ensure that a modern distribution of Python is installed on your local operating
 ### Deployment Steps
 1. **Clone the Source Repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/Simple-Writepad.git](https://github.com/YOUR_USERNAME/Simple-Writepad.git)
+   git clone [https://github.com/Ratul-Chatterjee2006/Text-Editor/tree/master]
