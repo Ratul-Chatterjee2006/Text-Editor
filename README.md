@@ -1,31 +1,32 @@
-# 📝 Simple Writepad
+# Simple Writepad
 
-A lightweight, high-performance desktop text editor built entirely in Python using the Tkinter graphical user interface framework. Developed as a practical study in event-driven software engineering, local File I/O streaming, and cross-platform window state management.
-
----
-
-## 🚀 Core Functionality
-
-- **Streamlined File Handlers:** In-app modules to instantly instantiate blank workspaces (`newfile`), deserialize local `.txt` documents (`openfile`), and serialize raw strings back to disk (`savefile`).
-- **Clean Typographical Geometry:** Configured with standard word-wrapping (`tk.WORD`) and styled with crisp `Century` typography for a highly readable, distraction-free environment.
-- **Robust Exception Minimization:** Fully isolated native file-handling dialouges featuring fallback safety constraints if users cancel a save or open operation midway.
-
-
-
-## 🛠️ Architecture & Tech Stack
-
-* **Core Engine:** Python 3.x
-* **Window Manager:** Tkinter (Standard GUI Library)
-* **Sub-modules Used:** `tkinter.filedialog` (Native OS Path Dialogues), `tkinter.messagebox` (System Alerts)
+A lightweight, responsive rich-text editor built using Python and Tkinter. This application goes beyond standard text editing by implementing advanced event binding mechanisms, dynamic tag layering, and real-time custom font styling behaviors similar to commercial word processors.
 
 ---
 
-## ⚙️ Quick Start & Installation
+## 🚀 Key Features
+
+* **Advanced Keyboard Shortcuts:** Global keyboard listeners for critical file system operations (`Ctrl+N`, `Ctrl+O`, `Ctrl+S`) and standard text formatting.
+* **Context-Aware Formatting:** Fully integrated overrides preventing native system shortcut collisions (such as intercepting the deep-level Unix text widget `Ctrl+I` deletion/tab swap bug).
+* **Granular Text Selection Engine:** Implements micro-tag management allowing users to highlight precise characters, lines, or blocks of text to apply individual font families, font sizing scales, and styling options independently without altering global document layouts.
+* **Dynamic Tag Compounding:** Generates custom Tkinter style configurations on-the-fly (`Font_Size_Style` matrices) to handle multi-layered formatting blending seamlessly.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+
+* **Language:** Python 3.x
+* **GUI Framework:** Tkinter
+* **Component Architecture:** Structured into an immutable state tuple registry, a centralized mutable Tkinter wrapper framework (`StringVar`/`IntVar`), and isolated runtime callback pipelines.
+
+---
+
+## 📦 Getting Started
 
 ### Prerequisites
-Ensure that a modern distribution of Python is installed on your local operating environment.
+Make sure you have Python installed on your local machine. Tkinter comes bundled automatically with standard Python distributions on Windows and macOS.
 
-### Deployment Steps
-1. **Clone the Source Repository:**
+### Installation & Execution
+1. Clone the repository to your desktop machine:
    ```bash
-   git clone [https://github.com/Ratul-Chatterjee2006/Text-Editor/tree/master]
+   git clone [https://github.com/Ratul-Chatterjee2006/Text-Editor.git](https://github.com/Ratul-Chatterjee2006/Text-Editor.git)
